@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.signup-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-section {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.left-section img {
+  width: 200px;
+  height: 130px;
+  margin-top: -1.5cm; /* Monte l'image de 20 pixels */
+  
+}
+.title{
+  /*font-family: 'Athiti';  Change la police du titre */
+  margin-top: -0.07cm; /* Monte le titre de 10 pixels */
+  margin-right: 3.7cm;
+}
+
+form {
+  width: 100%; /* Augmente la largeur du formulaire à 70% de la largeur du conteneur */
+  margin: 20px auto;
+}
+
+form input {
+  margin-bottom: 10px;
+  width: 60%; /* Largeur du champ de saisie */
+  padding: 7px; /* Espace à l'intérieur du champ de saisie */
+  margin: 5px 0; /* Marge autour du champ de saisie */
+  box-sizing: border-box; /* La largeur inclut le padding et la bordure */
+  border: 1px solid #ccc; /* Bordure du champ de saisie */
+  border-radius: 5px; /* Coins arrondis */
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: -0.5cm;
+}
+
+.checkbox-container input {
+  margin-right: 0.3cm; /* Adjust the margin as needed */
+  margin-left: 3.3cm;
+  transform: scale(1.5);
+}
+
+.checkbox-container label {
+  margin-right: 2cm; /* Adjust the margin as needed */
+}
+button {
+  width: 60%; /* Largeur du bouton */
+  padding: 7px; /* Espace à l'intérieur du bouton */
+  margin: 5px 0; /* Marge autour du bouton */
+  box-sizing: border-box; /* La largeur inclut le padding et la bordure */
+  border: 1px solid #ccc; /* Bordure du bouton */
+  border-radius: 2px; /* Coins arrondis */
+  background-color: #4caf50; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte du bouton */
+  cursor: pointer;
+}
+
+.icon7 {
+  width: 75%; /* Set the desired percentage */
+  height: auto; /* Maintain the aspect ratio */
+  margin-left: 1cm;
+  margin-top: 1.5cm;
+}
+
+.label {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.password-container {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.right-section {
+  flex: 1;
+  background-color: #ebf0ff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+li {
+  margin-right: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+li a:hover {
+  color: #82c4f3; /* Nouvelle couleur du texte au survol */
+}
+.signup-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #2980b9;
+}

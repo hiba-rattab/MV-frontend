@@ -1,0 +1,52 @@
+
+
+<div class="signup-container">
+    <div class="left-section">
+        <img src = "assets/image1.png" alt="logo"/>
+        <h2 class="title">Create Account</h2>
+        <form>
+            <label for="firstname" style="display:none;">First Name:</label>
+            <input type="text" id="firstname" name="name" value="Firstname" style="color: grey;"><br>
+
+
+            <label for="lastname" style="display:none;">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" value="Lastname" style="color: grey;"><br>
+
+            <label for="number" style="display:none;">Phone Number:</label>
+            <input type="tel" id="number" name="number" value="Number" style="color: grey;"><br>
+
+            <label for="email" style="display:none;">Email Address:</label>
+            <input type="email" id="email" name="email" value="EmailAdress" style="color: grey;"><br>
+
+            <label for="password" style="display:none;">Password:</label>
+            <div class="password-container">
+                <input type="password" id="password" name="password" value="Password" style="color: grey;">
+                
+            </div>
+
+            
+        </form>
+        <div class="checkbox-container">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">  I agree with Terms and Privacy</label><br><br>
+        </div>
+        <button type="submit" class="signup-button">Sign Up</button>
+        <p>Already have an account? <a routerLink="/login">Log In</a></p>
+    </div>
+
+    <div class="right-section">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a routerLink="/login">Login In</a></li>
+            </ul>
+        </nav>
+        <img src="assets/hypochondriac-amico-1-icon.svg" alt="" class="icon7" />
+       
+    </div>
+</div>
+
+
+
